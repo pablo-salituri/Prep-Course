@@ -1,21 +1,38 @@
+h1 {
+    color: red;
+}
 
-        h1 {
-            color: red;
-        }
+img {
+    width: 400px;
+}
 
-        img {
-            width: 400px;
-        }
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: rgb(150, 150, 150);
+    padding: 50px;
+    border: 6px dashed blue;
+    justify-content: center;
+}
 
-        #thirdDiv {
-            height: 600px;
-            width: 500px;
-            background-color: rgb(150, 150, 150);
-            padding: 50px;
-            border: 6px dashed blue;
-        }
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
 
-        #spanId {
-            font-size: 18px;
-            margin: 50px;
-        }
+body{
+    background-image: url(https://estaticos-cdn.sport.es/clip/790ac9ac-dcf5-4d4c-9e6e-c253afdfd3f6_alta-libre-aspect-ratio_default_0.jpg);
+    background-size: cover;
+    color: white
+    
+}
+
+a{
+    color: white
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
